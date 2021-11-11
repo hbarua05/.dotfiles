@@ -43,4 +43,4 @@ sudo apt-get install ripgrep -y
 
 # Installing stow
 echo "INSTALLING stow"
-sudo apt-get stow -y
+sudo apt-get install stow -y
