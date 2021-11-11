@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# INSTALL SCRIPT FOR UBUNTU
+# INSTALL SCRIPT FOR UBUNTU 20.04
 
 cd
 echo "HELLO ${whoami}"
