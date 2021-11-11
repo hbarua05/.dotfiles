@@ -5,13 +5,6 @@
 cd
 echo "HELLO ${whoami}"
 echo "INSTALLING REQUIRED PROGRAMS..."
-sudo apt-get update -y
-sudo apt-get upgrade -y
-
-# Installing pip
-echo "INSTALLING pip"
-sudo apt-get install python3-pip -y
-python3 -m pip install --upgrade pip
 
 # Installing curl
 echo "INSTALLING curl"
