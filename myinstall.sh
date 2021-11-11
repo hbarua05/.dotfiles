@@ -46,3 +46,8 @@ for d in `ls .`;
 do
     ( stow $d )
 done
+
+# Moving the bash dot files as stow doesnt
+cp -rT .dotfiles/bashfiles/ ~
+
+source .profile
