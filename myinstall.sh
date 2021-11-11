@@ -47,3 +47,9 @@ sudo apt-get install ripgrep -y
 # Installing stow
 echo "INSTALLING stow"
 sudo apt-get install stow -y
+
+# Creating the symlink for dotfiles using stow
+for d in `ls .`;
+do
+    ( stow $d )
+done
